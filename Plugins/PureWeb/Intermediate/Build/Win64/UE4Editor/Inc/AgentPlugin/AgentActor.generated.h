@@ -16,7 +16,7 @@ enum class APState : uint8;
 #endif
 #define AGENTPLUGIN_AgentActor_generated_h
 
-#define Metaworld_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_36_DELEGATE \
+#define HostProject_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_36_DELEGATE \
 struct _Script_AgentPlugin_eventKeyChangeDelegate_Parms \
 { \
 	FAgentPlatformJsonObject message; \
@@ -29,7 +29,7 @@ static inline void FKeyChangeDelegate_DelegateWrapper(const FMulticastScriptDele
 }
 
 
-#define Metaworld_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_35_DELEGATE \
+#define HostProject_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_35_DELEGATE \
 struct _Script_AgentPlugin_eventPresenceEventDelegate_Parms \
 { \
 	FAgentPlatformJsonObject message; \
@@ -42,7 +42,7 @@ static inline void FPresenceEventDelegate_DelegateWrapper(const FMulticastScript
 }
 
 
-#define Metaworld_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_34_DELEGATE \
+#define HostProject_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_34_DELEGATE \
 struct _Script_AgentPlugin_eventDepartureDelegate_Parms \
 { \
 	FAgentPlatformJsonObject message; \
@@ -55,7 +55,7 @@ static inline void FDepartureDelegate_DelegateWrapper(const FMulticastScriptDele
 }
 
 
-#define Metaworld_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_33_DELEGATE \
+#define HostProject_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_33_DELEGATE \
 struct _Script_AgentPlugin_eventArrivaldDelegate_Parms \
 { \
 	FAgentPlatformJsonObject message; \
@@ -68,7 +68,7 @@ static inline void FArrivaldDelegate_DelegateWrapper(const FMulticastScriptDeleg
 }
 
 
-#define Metaworld_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_32_DELEGATE \
+#define HostProject_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_32_DELEGATE \
 struct _Script_AgentPlugin_eventPrivateMessagedDelegate_Parms \
 { \
 	FAgentPlatformJsonObject message; \
@@ -81,7 +81,7 @@ static inline void FPrivateMessagedDelegate_DelegateWrapper(const FMulticastScri
 }
 
 
-#define Metaworld_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_31_DELEGATE \
+#define HostProject_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_31_DELEGATE \
 struct _Script_AgentPlugin_eventBroadcastMessageDelegate_Parms \
 { \
 	FAgentPlatformJsonObject message; \
@@ -94,7 +94,7 @@ static inline void FBroadcastMessageDelegate_DelegateWrapper(const FMulticastScr
 }
 
 
-#define Metaworld_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_30_DELEGATE \
+#define HostProject_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_30_DELEGATE \
 struct _Script_AgentPlugin_eventAgentConnectionDelegate_Parms \
 { \
 	FAgentPlatformJsonObject message; \
@@ -107,8 +107,8 @@ static inline void FAgentConnectionDelegate_DelegateWrapper(const FMulticastScri
 }
 
 
-#define Metaworld_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_41_SPARSE_DATA
-#define Metaworld_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_41_RPC_WRAPPERS \
+#define HostProject_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_41_SPARSE_DATA
+#define HostProject_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_41_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execSubscribeToKeyWrite); \
 	DECLARE_FUNCTION(execSubscribeToKeyRemove); \
@@ -134,7 +134,7 @@ static inline void FAgentConnectionDelegate_DelegateWrapper(const FMulticastScri
 	DECLARE_FUNCTION(execCreateAgent);
 
 
-#define Metaworld_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_41_RPC_WRAPPERS_NO_PURE_DECLS \
+#define HostProject_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_41_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execSubscribeToKeyWrite); \
 	DECLARE_FUNCTION(execSubscribeToKeyRemove); \
@@ -160,7 +160,7 @@ static inline void FAgentConnectionDelegate_DelegateWrapper(const FMulticastScri
 	DECLARE_FUNCTION(execCreateAgent);
 
 
-#define Metaworld_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_41_INCLASS_NO_PURE_DECLS \
+#define HostProject_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_41_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAAgentActor(); \
 	friend struct Z_Construct_UClass_AAgentActor_Statics; \
@@ -169,7 +169,7 @@ public: \
 	DECLARE_SERIALIZER(AAgentActor)
 
 
-#define Metaworld_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_41_INCLASS \
+#define HostProject_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_41_INCLASS \
 private: \
 	static void StaticRegisterNativesAAgentActor(); \
 	friend struct Z_Construct_UClass_AAgentActor_Statics; \
@@ -178,7 +178,7 @@ public: \
 	DECLARE_SERIALIZER(AAgentActor)
 
 
-#define Metaworld_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_41_STANDARD_CONSTRUCTORS \
+#define HostProject_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_41_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AAgentActor(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AAgentActor) \
@@ -191,7 +191,7 @@ private: \
 public:
 
 
-#define Metaworld_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_41_ENHANCED_CONSTRUCTORS \
+#define HostProject_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_41_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AAgentActor(AAgentActor&&); \
@@ -202,28 +202,28 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AAgentActor)
 
 
-#define Metaworld_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_41_PRIVATE_PROPERTY_OFFSET
-#define Metaworld_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_38_PROLOG
-#define Metaworld_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_41_GENERATED_BODY_LEGACY \
+#define HostProject_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_41_PRIVATE_PROPERTY_OFFSET
+#define HostProject_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_38_PROLOG
+#define HostProject_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_41_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Metaworld_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_41_PRIVATE_PROPERTY_OFFSET \
-	Metaworld_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_41_SPARSE_DATA \
-	Metaworld_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_41_RPC_WRAPPERS \
-	Metaworld_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_41_INCLASS \
-	Metaworld_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_41_STANDARD_CONSTRUCTORS \
+	HostProject_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_41_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_41_SPARSE_DATA \
+	HostProject_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_41_RPC_WRAPPERS \
+	HostProject_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_41_INCLASS \
+	HostProject_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_41_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Metaworld_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_41_GENERATED_BODY \
+#define HostProject_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_41_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Metaworld_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_41_PRIVATE_PROPERTY_OFFSET \
-	Metaworld_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_41_SPARSE_DATA \
-	Metaworld_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_41_RPC_WRAPPERS_NO_PURE_DECLS \
-	Metaworld_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_41_INCLASS_NO_PURE_DECLS \
-	Metaworld_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_41_ENHANCED_CONSTRUCTORS \
+	HostProject_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_41_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_41_SPARSE_DATA \
+	HostProject_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_41_RPC_WRAPPERS_NO_PURE_DECLS \
+	HostProject_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_41_INCLASS_NO_PURE_DECLS \
+	HostProject_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h_41_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -231,7 +231,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> AGENTPLUGIN_API UClass* StaticClass<class AAgentActor>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID Metaworld_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h
+#define CURRENT_FILE_ID HostProject_Plugins_PureWeb_Source_AgentPlugin_Public_AgentActor_h
 
 
 #define FOREACH_ENUM_APSTATE(op) \

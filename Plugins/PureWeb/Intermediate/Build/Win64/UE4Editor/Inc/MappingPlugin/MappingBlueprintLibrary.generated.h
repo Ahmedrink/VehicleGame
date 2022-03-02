@@ -15,15 +15,15 @@ struct FMappingWGS84;
 #endif
 #define MAPPINGPLUGIN_MappingBlueprintLibrary_generated_h
 
-#define Metaworld_Plugins_PureWeb_Source_MappingPlugin_Public_MappingBlueprintLibrary_h_20_GENERATED_BODY \
+#define HostProject_Plugins_PureWeb_Source_MappingPlugin_Public_MappingBlueprintLibrary_h_20_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FMappingWGS84_Statics; \
 	MAPPINGPLUGIN_API static class UScriptStruct* StaticStruct();
 
 
 template<> MAPPINGPLUGIN_API UScriptStruct* StaticStruct<struct FMappingWGS84>();
 
-#define Metaworld_Plugins_PureWeb_Source_MappingPlugin_Public_MappingBlueprintLibrary_h_52_SPARSE_DATA
-#define Metaworld_Plugins_PureWeb_Source_MappingPlugin_Public_MappingBlueprintLibrary_h_52_RPC_WRAPPERS \
+#define HostProject_Plugins_PureWeb_Source_MappingPlugin_Public_MappingBlueprintLibrary_h_52_SPARSE_DATA
+#define HostProject_Plugins_PureWeb_Source_MappingPlugin_Public_MappingBlueprintLibrary_h_52_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execBearingModel); \
 	DECLARE_FUNCTION(execBearingRealWorld); \
@@ -35,7 +35,7 @@ template<> MAPPINGPLUGIN_API UScriptStruct* StaticStruct<struct FMappingWGS84>()
 	DECLARE_FUNCTION(execConvertWGS84PointToModelPoint);
 
 
-#define Metaworld_Plugins_PureWeb_Source_MappingPlugin_Public_MappingBlueprintLibrary_h_52_RPC_WRAPPERS_NO_PURE_DECLS \
+#define HostProject_Plugins_PureWeb_Source_MappingPlugin_Public_MappingBlueprintLibrary_h_52_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execBearingModel); \
 	DECLARE_FUNCTION(execBearingRealWorld); \
@@ -47,7 +47,7 @@ template<> MAPPINGPLUGIN_API UScriptStruct* StaticStruct<struct FMappingWGS84>()
 	DECLARE_FUNCTION(execConvertWGS84PointToModelPoint);
 
 
-#define Metaworld_Plugins_PureWeb_Source_MappingPlugin_Public_MappingBlueprintLibrary_h_52_INCLASS_NO_PURE_DECLS \
+#define HostProject_Plugins_PureWeb_Source_MappingPlugin_Public_MappingBlueprintLibrary_h_52_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUMappingBlueprintLibrary(); \
 	friend struct Z_Construct_UClass_UMappingBlueprintLibrary_Statics; \
@@ -56,7 +56,7 @@ public: \
 	DECLARE_SERIALIZER(UMappingBlueprintLibrary)
 
 
-#define Metaworld_Plugins_PureWeb_Source_MappingPlugin_Public_MappingBlueprintLibrary_h_52_INCLASS \
+#define HostProject_Plugins_PureWeb_Source_MappingPlugin_Public_MappingBlueprintLibrary_h_52_INCLASS \
 private: \
 	static void StaticRegisterNativesUMappingBlueprintLibrary(); \
 	friend struct Z_Construct_UClass_UMappingBlueprintLibrary_Statics; \
@@ -65,7 +65,7 @@ public: \
 	DECLARE_SERIALIZER(UMappingBlueprintLibrary)
 
 
-#define Metaworld_Plugins_PureWeb_Source_MappingPlugin_Public_MappingBlueprintLibrary_h_52_STANDARD_CONSTRUCTORS \
+#define HostProject_Plugins_PureWeb_Source_MappingPlugin_Public_MappingBlueprintLibrary_h_52_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UMappingBlueprintLibrary(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMappingBlueprintLibrary) \
@@ -78,7 +78,7 @@ private: \
 public:
 
 
-#define Metaworld_Plugins_PureWeb_Source_MappingPlugin_Public_MappingBlueprintLibrary_h_52_ENHANCED_CONSTRUCTORS \
+#define HostProject_Plugins_PureWeb_Source_MappingPlugin_Public_MappingBlueprintLibrary_h_52_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UMappingBlueprintLibrary(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -91,28 +91,28 @@ public: \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMappingBlueprintLibrary)
 
 
-#define Metaworld_Plugins_PureWeb_Source_MappingPlugin_Public_MappingBlueprintLibrary_h_52_PRIVATE_PROPERTY_OFFSET
-#define Metaworld_Plugins_PureWeb_Source_MappingPlugin_Public_MappingBlueprintLibrary_h_49_PROLOG
-#define Metaworld_Plugins_PureWeb_Source_MappingPlugin_Public_MappingBlueprintLibrary_h_52_GENERATED_BODY_LEGACY \
+#define HostProject_Plugins_PureWeb_Source_MappingPlugin_Public_MappingBlueprintLibrary_h_52_PRIVATE_PROPERTY_OFFSET
+#define HostProject_Plugins_PureWeb_Source_MappingPlugin_Public_MappingBlueprintLibrary_h_49_PROLOG
+#define HostProject_Plugins_PureWeb_Source_MappingPlugin_Public_MappingBlueprintLibrary_h_52_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Metaworld_Plugins_PureWeb_Source_MappingPlugin_Public_MappingBlueprintLibrary_h_52_PRIVATE_PROPERTY_OFFSET \
-	Metaworld_Plugins_PureWeb_Source_MappingPlugin_Public_MappingBlueprintLibrary_h_52_SPARSE_DATA \
-	Metaworld_Plugins_PureWeb_Source_MappingPlugin_Public_MappingBlueprintLibrary_h_52_RPC_WRAPPERS \
-	Metaworld_Plugins_PureWeb_Source_MappingPlugin_Public_MappingBlueprintLibrary_h_52_INCLASS \
-	Metaworld_Plugins_PureWeb_Source_MappingPlugin_Public_MappingBlueprintLibrary_h_52_STANDARD_CONSTRUCTORS \
+	HostProject_Plugins_PureWeb_Source_MappingPlugin_Public_MappingBlueprintLibrary_h_52_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_PureWeb_Source_MappingPlugin_Public_MappingBlueprintLibrary_h_52_SPARSE_DATA \
+	HostProject_Plugins_PureWeb_Source_MappingPlugin_Public_MappingBlueprintLibrary_h_52_RPC_WRAPPERS \
+	HostProject_Plugins_PureWeb_Source_MappingPlugin_Public_MappingBlueprintLibrary_h_52_INCLASS \
+	HostProject_Plugins_PureWeb_Source_MappingPlugin_Public_MappingBlueprintLibrary_h_52_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Metaworld_Plugins_PureWeb_Source_MappingPlugin_Public_MappingBlueprintLibrary_h_52_GENERATED_BODY \
+#define HostProject_Plugins_PureWeb_Source_MappingPlugin_Public_MappingBlueprintLibrary_h_52_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Metaworld_Plugins_PureWeb_Source_MappingPlugin_Public_MappingBlueprintLibrary_h_52_PRIVATE_PROPERTY_OFFSET \
-	Metaworld_Plugins_PureWeb_Source_MappingPlugin_Public_MappingBlueprintLibrary_h_52_SPARSE_DATA \
-	Metaworld_Plugins_PureWeb_Source_MappingPlugin_Public_MappingBlueprintLibrary_h_52_RPC_WRAPPERS_NO_PURE_DECLS \
-	Metaworld_Plugins_PureWeb_Source_MappingPlugin_Public_MappingBlueprintLibrary_h_52_INCLASS_NO_PURE_DECLS \
-	Metaworld_Plugins_PureWeb_Source_MappingPlugin_Public_MappingBlueprintLibrary_h_52_ENHANCED_CONSTRUCTORS \
+	HostProject_Plugins_PureWeb_Source_MappingPlugin_Public_MappingBlueprintLibrary_h_52_PRIVATE_PROPERTY_OFFSET \
+	HostProject_Plugins_PureWeb_Source_MappingPlugin_Public_MappingBlueprintLibrary_h_52_SPARSE_DATA \
+	HostProject_Plugins_PureWeb_Source_MappingPlugin_Public_MappingBlueprintLibrary_h_52_RPC_WRAPPERS_NO_PURE_DECLS \
+	HostProject_Plugins_PureWeb_Source_MappingPlugin_Public_MappingBlueprintLibrary_h_52_INCLASS_NO_PURE_DECLS \
+	HostProject_Plugins_PureWeb_Source_MappingPlugin_Public_MappingBlueprintLibrary_h_52_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -120,7 +120,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> MAPPINGPLUGIN_API UClass* StaticClass<class UMappingBlueprintLibrary>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID Metaworld_Plugins_PureWeb_Source_MappingPlugin_Public_MappingBlueprintLibrary_h
+#define CURRENT_FILE_ID HostProject_Plugins_PureWeb_Source_MappingPlugin_Public_MappingBlueprintLibrary_h
 
 
 #define FOREACH_ENUM_GRIDDIRECTIONALITY(op) \

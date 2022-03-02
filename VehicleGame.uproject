@@ -26,6 +26,10 @@
 		},
 		{
 			"Name": "PixelStreaming",
+			"Enabled": false
+		},
+		{
+			"Name": "PureWeb",
 			"Enabled": true
 		}
 	],
